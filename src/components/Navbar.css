@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(145, 202, 240);
+  color: #fff;
+}
+
+.name-title {
+  font-size: 1.5rem;
+  margin: 0.8rem;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li:hover {
+  background-color: rgb(169, 222, 238);
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+}
+
